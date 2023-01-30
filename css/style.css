@@ -16,6 +16,10 @@ body{
     color: #fff;
     min-height: 150px;
     padding: 10px;
+    display: flex;
+}
+.header__img{
+    margin-right: 20px;
 }
 .header__title{
     font-size: 28px;
@@ -23,9 +27,11 @@ body{
     letter-spacing: 3px;
     margin-bottom: 10px;
 }
+
 .header__subtitle{
     font-style: italic;
     letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 .main{
     display: grid;
@@ -84,6 +90,10 @@ body{
     grid-gap: 5px;
     padding: 0 10px;
     margin-bottom: 15px;
+}
+.avatar{
+    max-width: 200px;
+    height: auto;
 }
 .personal-info__title{
     font-weight: 700;
